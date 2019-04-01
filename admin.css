@@ -1,0 +1,110 @@
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 30px 50px;
+  font-size: 16px;
+  text-align: center;
+  background: #AAAAAA;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 5px;
+}
+
+input[type="password"] {
+  font-size: 16px;
+  padding: 5px;
+}
+
+input[type=submit] {
+    color:#ffffff;
+    font-size: 18px;
+    cursor:pointer;
+    background: #E66E53;
+
+}
+
+
+
+
+th {
+    text-align: center;
+    background: #E66E53;
+    color: #ffffff;
+	
+}
+
+td {
+   padding-top: 2px;
+
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 5px 4px 0px 0;
+  list-style: none;
+  background: #DADADA;
+  color: #000;
+  font-size: 16px;
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 5px 20px;
+  background: #DADADA;
+  cursor: pointer;
+  font-size: 16px;
+}
+ul li:hover {
+  color: #E66E53;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 180px;
+  display: none;
+  visibility: hidden;
+}
+
+ul li ul li { 
+  background: #DADADA; 
+  display: block; 
+  color: #000;
+}
+ul li ul li:hover { color: #E66E53; }
+ul li:hover ul {
+  display: block;
+  visibility: visible;
+}
+
+.menu {
+	text-decoration: none;
+	color: #000000;
+}
+.menu:hover {
+	text-decoration: none;
+	color: #E66E53;
+}
+
+
+#container {
+width: 80%;
+background: #AAAAAA;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#menubar {
+width: 100%;
+background: #DADADA;
+margin-left: auto;
+margin-right: auto;	
+}
